@@ -380,15 +380,22 @@ div[id*=-opool] div + div {
 /* scroll tables if too wide */
 
 .list {
-    width: 100%;
-    overflow-x: scroll;
-    border-right: 1px dashed #DDD;
+  width: 100%;
+  overflow-x: scroll;
+  border-right: 1px dashed #DDD;
+}
+
+.prop .value textarea,
+#askCouponText {
+  max-width: 450px;
+  word-wrap: break-word;
 }
 
 /* form fields in settings table */
 
 .value .inputtext {
   max-width: 420px;
+  word-wrap: break-word;
 }
 
 .value #emailHeaderGraphicImg {
