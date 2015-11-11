@@ -3,354 +3,388 @@
 /***** CONTAINERS *****/
 
 body {
-    background: #F0F0F0;
+  background: #F0F0F0;
 }
 
+#contentWrap,
+#pagewrapper2,
+#contentleft,
+#contentcenter {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+#contentWrap,
+#pagewrapper2 {
+  width: 1050px;
+}
+
+.dialog #pagewrapper2 {
+  width: 550px;
+}
 
 #contentleft {
-    background: #F0F0F0;
+  width: 200px;
+  background: #F0F0F0;
 }
 
 #contentcenter {
-    background: white;
-    padding-right: 20px;
-    padding-bottom: 30px;
+  width: 850px;
+  background: white;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }
 
 #contentleft + div h1 + div {
-    background: white;
+  background: white;
 }
 
 #contentWrap {
-    border-color: transparent;
+  border-color: transparent;
 }
 
 .tableClear {
-    border-color: transparent;
+  border-color: transparent;
 }
 
 /* row under h1 in Reviews, Search */
 
 #remoteMessage + div {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 #contentleft + div {
-    border-color: transparent;
+  border-color: transparent;
 }
 
 #footer {
-    margin-top: 0;
-    border-top: 0;
-    padding: 15px 15px 30px;
-    background: transparent;
+  margin-top: 0;
+  border-top: 0;
+  padding: 15px 15px 30px;
+  background: transparent;
 }
 
 /***** NAVIGATION *****/
 
 .logo2 {
-    background-image: url( https://s3.amazonaws.com/f.cl.ly/items/1l3Q2e1E2G1A0u1m1S2V/TT_logo.png);
-    background-position: 10px 15px;
-    background-size: 125px;
-    margin-left: 15px;
+  background-image: url( https://s3.amazonaws.com/f.cl.ly/items/1l3Q2e1E2G1A0u1m1S2V/TT_logo.png);
+  background-position: 10px 15px;
+  background-size: 125px;
+  margin-left: 15px;
 }
 
 .subcurrent {
-    background: #DDD;
+  background: #DDD;
 }
 
 .activeSubNav {
-    background: #DDD;
+  background: #DDD;
 }
 
 #midNav #midNavSel a, #midNav #midNavSelF a {
-    background: none;
-    color: #333;
-    padding-left: 0;
+  background: none;
+  color: #333;
+  padding-left: 0;
 }
 
 #leftNav {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: #DDD;
-    margin: 0;
+  border: 0;
+  height: 1px;
+  background: #DDD;
+  margin: 0;
 }
 
 hr + div {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 hr + div a {
-    display: block;
-    padding: 0 10px;
+  display: block;
+  padding: 0 10px;
 }
 
 /***** HEADINGS *****/
 
 h1#bucketHeader {
-    margin-bottom: 0;
-    background: white;
-    padding: 5px;
+  margin-bottom: 0;
+  background: white;
+  padding: 5px;
 }
 
 h1 {
-    color: #333;
-    font-weight: normal;
-    padding: 15px 20px;
-    background-color: #FFF;
+  color: #333;
+  font-weight: normal;
+  padding: 15px 20px;
+  background-color: #FFF;
 }
 
 #contentcenter h1 {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 /***** MODAL *****/
 
 div#requestFeatureDlg div:first-child {
-    text-align: right;
-    padding-bottom: 5px;
-    margin-top: 0;
+  text-align: right;
+  padding-bottom: 5px;
+  margin-top: 0;
 }
 
 .cssform .buttons {
-    margin-left: 179px;
+  margin-left: 179px;
 }
 
 .button {
-    font-size: 11px;
-    border-radius: 2px;
+  font-size: 11px;
+  border-radius: 2px;
 }
 
 .button input[type=submit] {
-    padding: 3px 20px;
+  padding: 3px 20px;
 }
 
 /***** BUTTONS *****/
 
 input[type=button], input[type=submit] {
-    padding: 3px 10px 4px;
-    font-size: 11px;
-    border-radius: 2px;
-    background: #EEE;
+  padding: 3px 10px 4px;
+  font-size: 11px;
+  border-radius: 2px;
+  background: #EEE;
 }
 
 #searchText {
-    padding: 3px 25px 4px 5px;
-    margin-left: 8px;
+  padding: 3px 25px 4px 5px;
+  margin-left: 8px;
 }
 
 #searchText + a {
-    margin-left: -20px;
-    margin-right: 6px;
+  margin-left: -20px;
+  margin-right: 6px;
 }
 
 .ui-multiselect {
-    position: relative;
-    top: -1px;
+  position: relative;
+  top: -1px;
 }
 
 .actionButton {
-    border-radius: 2px;
-    color: rgba(0,0,0,.87);
+  border-radius: 2px;
+  color: rgba(0,0,0,.87);
 }
 
 .review-button {
-    border-radius: 2px;
-    color: rgba(0,0,0,.87);
+  border-radius: 2px;
+  color: rgba(0,0,0,.87);
 }
 
 /***** TABLES *****/
 
 th {
-    background: #FFF;
+  background: #FFF;
 }
 
 .reportTable {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+
+/** GET CODE PAGE ***/
+
+#contentcenter textarea {
+  width: 720px!important;
+}
+
+/** EMAIL PAGE **/
+
+#contentcenter > a.skip {
+    margin-top: 20px;
+    display: block;
 }
 
 /***** REVIEWS *****/
 
 #reviewsContainer > div {
-    background: transparent;
-    border: 0;
-    border-top: 1px solid #DDD;
-    padding-bottom: 15px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid #DDD;
+  padding-bottom: 15px;
 }
 
 span[id^=reviewTextSpan] {
-    font-size: 12px;
-    line-height: 16px;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 span[id^=reviewTitleSpan] {
-    font-size: 14px;
-    font-weight: normal;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 div[id^=buttonContainer] {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 /***** EXPERTS *****/
 
 .TT8 {
-    background-color: #F5F5F5;
+  background-color: #F5F5F5;
 }
 
 .TT3answersBlock {
-    height: 36px;
-    background: white;
-    padding: 0;
+  height: 36px;
+  background: white;
+  padding: 0;
 }
 
 .TT3answersBlock textarea {
-    padding: 5px;
-    font-size: 12px;
-    width: 97.5%;
+  padding: 5px;
+  font-size: 12px;
+  width: 97.5%;
 }
 
 .TT3expand, #TTtraWindow .TT3expand, .TT3ansArea {
-    background: #F5F5F5;
-    border-radius: 2px;
+  background: #F5F5F5;
+  border-radius: 2px;
 }
 
 .TT3ansCntr {
-    margin-top: 1px;
+  margin-top: 1px;
 }
 
 .TT3ansArea .TT3staffBadge {
-    margin-right: 3px;
+  margin-right: 3px;
 }
 
 /***** QUESTIONS *****/
 
 #inboxSettings {
-    background-color: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 #inboxSettings ul {
-    padding: 5px;
+  padding: 5px;
 }
 
 #showSettings {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #hideSettings {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #showSettings img {
-    height: auto;
-    width: 12px;
+  height: auto;
+  width: 12px;
 }
 
 #hideSettings img {
-    height: auto;
-    width: 12px;
+  height: auto;
+  width: 12px;
 }
 
 #questionTblBody {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .suggestedAction {
-    border: 0;
+  border: 0;
 }
 
 /* product title row */
 
 .messageline {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 .messageline .messageline {
-    margin: 0;
+  margin: 0;
 }
 
 .messageline .separator {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 /* product title */
 
 .messageline a {
-    font-size: 12px;
-    font-weight: normal;
+  font-size: 12px;
+  font-weight: normal;
 }
 
 /* search link */
 
 .messageline .separator + a {
-    font-size: 11px;
-    font-weight: normal;
-    margin-left: 0;
+  font-size: 11px;
+  font-weight: normal;
+  margin-left: 0;
 }
 
 div[id^=suggestedAction] {
-    clear: both;
-    display: inline-block;
-    margin-left: 6px;
+  clear: both;
+  display: inline-block;
+  margin-left: 6px;
 }
 
 div[id^=suggestedAction]:before {
-    content: 'TO DO: ';
+  content: 'TO DO: ';
 }
 
 span[id*=statusRemove] + div span {
-    color: #DDD;
+  color: #DDD;
 }
 
 /* answer counts */
 
 span[id*=staffAnswerCount] {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 span[id*=socialAnswerCount] {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 div[id*=-opool] > div > span > span, div[id*=-opool] > div div span {
-    background: transparent;
+  background: transparent;
 }
 
 div[id*=-opool] div + div {
-    border-left: 1px solid #DDD;
+  border-left: 1px solid #DDD;
 }
 
 /* checkboxes */
 
 .iGrpLst {
-    margin-left: 0;
-    padding: 3px 5px 0;
+  margin-left: 0;
+  padding: 3px 5px 0;
 }
 
 /* yellow box */
 
 .itemText {
-    border: 0;
-    min-height: 64px;
+  border: 0;
+  min-height: 64px;
 }
 
 .itemText > span {
-    display: inline-block;
-    margin-bottom: 4px;
-    margin-left: 4px;
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-left: 4px;
 }
 
 .itemText .separator {
-    margin: 4px;
+  margin: 4px;
 }
 
 
 
-/* page re-rendered inside div on My Settings */
-#pagewrapper2 #pagewrapper2 {
-    width: 470px;
+
+/* pagination in header */
+.pagination {
+  clear: both;
 }
