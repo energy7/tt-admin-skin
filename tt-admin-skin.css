@@ -377,6 +377,14 @@ div[id*=-opool] div + div {
 }
 
 
+/* scroll tables if too wide */
+
+.list {
+    width: 100%;
+    overflow-x: scroll;
+    border-right: 1px dashed #DDD;
+}
+
 /* form fields in settings table */
 
 .value .inputtext {
