@@ -6,6 +6,7 @@ body {
     background: #F0F0F0;
 }
 
+
 #contentleft {
     background: #F0F0F0;
 }
@@ -347,3 +348,9 @@ div[id*=-opool] div + div {
     margin: 4px;
 }
 
+
+
+/* page re-rendered inside div on My Settings */
+#pagewrapper2 #pagewrapper2 {
+    width: 470px;
+}
