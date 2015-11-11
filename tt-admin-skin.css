@@ -115,7 +115,7 @@ div#requestFeatureDlg div:first-child {
     margin-top: 0;
 }
 
-.buttons {
+.dialog + .buttons {
     margin-left: 179px;
 }
 
